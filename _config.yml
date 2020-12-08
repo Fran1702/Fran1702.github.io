@@ -1,5 +1,6 @@
 theme: jekyll-theme-minimal
-skin: dark
+minima:
+  skin: dark
 
 title: [Francisco Ortiz]
 description: [Portfolio]
