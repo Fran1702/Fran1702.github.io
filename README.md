@@ -1,37 +1,32 @@
-## Welcome to GitHub Pages
+# Jekyll example website
 
-You can use the [editor on GitHub](https://github.com/Fran1702/Fran1702.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+This repository contains a Jekyll website integrated with a DatoCMS site. The site is deployed on Netlify, and can be seen at this URL: https://datocms-jekyll-example.netlify.com/
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Content stored in a DatoCMS site gets translated into local Jekyll files using a Ruby gem called `dato` you need to add to your Jekyll project. The translation rules are defined in file placed in your project root folder called [dato.config.rb](https://github.com/datocms/jekyll-example/blob/master/dato.config.rb).
 
-### Markdown
+To read more about the `dato` gem, please refer to [its documentation](https://github.com/datocms/ruby-datocms-client/blob/master/docs/dato-cli.md).
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Usage
 
-```markdown
-Syntax highlighted code block
+Click the following button to set up a project on DatoCMS with the schema and data that you need to run this example.
 
-# Header 1
-## Header 2
-### Header 3
+[![Deploy with DatoCMS](https://dashboard.datocms.com/deploy/button.svg)](https://dashboard.datocms.com/deploy?repo=datocms/jekyll-example)
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
+```
+# install dependencies
+bundle install
 
-**Bold** and _Italic_ and `Code` text
+# fill the .env file with your API token
+echo 'DATO_API_TOKEN=abc123' >> .env
 
-[Link](url) and ![Image](src)
+# download latest data from DatoCMS site
+bundle exec dato dump
+
+# build Jekyll site
+bundle exec jekyll build
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+## Website preview
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Fran1702/Fran1702.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+![Website screenshot](https://raw.githubusercontent.com/datocms/jekyll-example/master/screenshot.png)
