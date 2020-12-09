@@ -19,8 +19,10 @@ navbar-links:
     #    - Beautiful Jekyll: "https://beautifuljekyll.com"
     #    - Learn markdown: "https://www.markdowntutorial.com/"
       #  Author's home: "https://deanattali.com"
-  Projects: "projects"  
-
+  Projects: 
+    - C++ Final project: "C++FinalProject"
+    - Homemade 3D printer: "3dPrinter" 
+    - Underwater ultrasonic sensor: "ultrasonico" 
 # --- Logo --- #
 
 # Image to show in the navigation bar - works best with a square image
