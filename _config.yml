@@ -6,25 +6,26 @@
 # --- Required options --- #
 
 # Name of website
-title: My Website
+title: Hector Francisco Ortiz Villasuso 
 
 # Your name to show in the footer
-author: Some Person
+author: Hector Francisco Ortiz Villasuso 
 
 # --- List of links in the navigation bar --- #
 
 navbar-links:
   About Me: "aboutme"
-  Resources:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
-  Author's home: "https://deanattali.com"
+    #  Resources:
+    #    - Beautiful Jekyll: "https://beautifuljekyll.com"
+    #    - Learn markdown: "https://www.markdowntutorial.com/"
+      #  Author's home: "https://deanattali.com"
+  Projects: "projects"  
 
 # --- Logo --- #
 
 # Image to show in the navigation bar - works best with a square image
 # Remove this parameter if you don't want an image in the navbar
-avatar: "/assets/img/avatar-icon.png"
+avatar: "/assets/img/yo.png"
 
 # By default, the image is cut into a circle. You can disable this behaviour by setting 'round-avatar: false'
 round-avatar: true
@@ -33,20 +34,22 @@ round-avatar: true
 # then specify the following parameter
 #title-img: /path/to/image
 
+cover-img: ["/assets/img/cohete_2.png": "asd"] 
+  #cover-img: ["/assets/img/cohete_2.png","/assets/img/path.jpg"]
 
 # --- Footer social media links --- #
 
 # Select the social network links that you want to show in the footer.
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
-  email: "someone@example.com"
-  facebook: deanattali
-  github: daattali
-  twitter: daattali
-  patreon: DeanAttali
-  youtube: c/daattali
+  email: "h.f.ortizvillasuso@gmail.com"
+    #  facebook: Francisco Ortiz
+    #  github: daattali
+    # twitter: daattali
+    #patreon: DeanAttali
+    #  youtube: c/daattali
 #  reddit: yourname
-#  linkedin: daattali
+  linkedin: Francisco Ortiz
 #  xing: yourname
 #  stackoverflow: "3943160/daattali"
 #  snapchat: deanat78
