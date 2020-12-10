@@ -1,7 +1,7 @@
 ---
 layout: page
 title: C++ Final Project
-subtitle: Final project for C++ subject
+subtitle: Final project for C++ course
 cover-img:
   - "/assets/img/c++01.png" 
 
