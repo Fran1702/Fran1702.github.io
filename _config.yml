@@ -19,9 +19,13 @@ navbar-links:
     #    - Learn markdown: "https://www.markdowntutorial.com/"
       #  Author's home: "https://deanattali.com"
   Projects: 
+    - Control of droplet driven by electric fields: "EHD-Droplets" 
+    - Simulator of microrobot based on fluid joints: "FluidJ"
+    - Controlling a drone with Reinforcement Learning (1): "RL-Drone"
     - C++ Final project: "C++FinalProject"
     - Homemade 3D printer: "3dPrinter" 
     - Underwater ultrasonic sensor: "ultrasonico" 
+    
   About Me: "aboutme"
 # --- Logo --- #
 
