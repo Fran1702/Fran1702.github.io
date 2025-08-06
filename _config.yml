@@ -18,7 +18,7 @@ navbar-links:
     #    - Beautiful Jekyll: "https://beautifuljekyll.com"
     #    - Learn markdown: "https://www.markdowntutorial.com/"
       #  Author's home: "https://deanattali.com"
-  Projects: "projects" 
+  Projects:
     - Control of droplet driven by electric fields: "EHD-Droplets" 
     - Simulator of microrobot based on fluid joints: "FluidJ"
     - Controlling a drone with Reinforcement Learning (1): "RL-Drone"
