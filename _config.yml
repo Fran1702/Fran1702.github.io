@@ -18,15 +18,22 @@ navbar-links:
     #    - Beautiful Jekyll: "https://beautifuljekyll.com"
     #    - Learn markdown: "https://www.markdowntutorial.com/"
       #  Author's home: "https://deanattali.com"
-  Projects:
-    - Control of droplet driven by electric fields: "EHD-Droplets" 
-    - Simulator of microrobot based on fluid joints: "FluidJ"
-    - Controlling a drone with Reinforcement Learning (1): "RL-Drone"
-    - C++ Final project: "C++FinalProject"
-    - Homemade 3D printer: "3dPrinter" 
-    - Underwater ultrasonic sensor: "ultrasonico" 
+  Projects: "projects"
+    #    - Control of droplet driven by electric fields: "EHD-Droplets" 
+    #- Simulator of microrobot based on fluid joints: "FluidJ"
+    #- Controlling a drone with Reinforcement Learning (1): "RL-Drone"
+    #- C++ Final project: "C++FinalProject"
+    #- Homemade 3D printer: "3dPrinter" 
+    #- Underwater ultrasonic sensor: "ultrasonico" 
     
   About Me: "aboutme"
+
+# -------------------- #
+collections:
+  projects:
+    output: true
+    permalink: /projects/:path/
+
 # --- Logo --- #
 
 # Image to show in the navigation bar - works best with a square image
@@ -50,12 +57,12 @@ round-avatar: true
 social-network-links:
   email: "h.f.ortizvillasuso@gmail.com"
     #  facebook: Francisco Ortiz
-    #  github: daattali
+  github: fran1702
     # twitter: daattali
     #patreon: DeanAttali
     #  youtube: c/daattali
 #  reddit: yourname
-  linkedin: Francisco Ortiz
+  linkedin:  hf-ortiz
 #  xing: yourname
 #  stackoverflow: "3943160/daattali"
 #  snapchat: deanat78
